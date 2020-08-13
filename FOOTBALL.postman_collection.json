@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "df1ed0fe-cb78-4089-a400-45a0eb9be726",
+		"name": "FOOTBALL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://apiv2.apifootball.com/?action=get_standings&league_id=148&APIkey=9bb66184e0c8145384fd2cc0f7b914ada57b4e8fd2e4d6d586adcc27c257a978",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apiv2.apifootball.com/?action=get_standings&league_id=148&APIkey=9bb66184e0c8145384fd2cc0f7b914ada57b4e8fd2e4d6d586adcc27c257a978",
+					"protocol": "https",
+					"host": [
+						"apiv2",
+						"apifootball",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "get_standings"
+						},
+						{
+							"key": "league_id",
+							"value": "148"
+						},
+						{
+							"key": "APIkey",
+							"value": "9bb66184e0c8145384fd2cc0f7b914ada57b4e8fd2e4d6d586adcc27c257a978"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/football/standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/football/standings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"football",
+						"standings"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apiv2.apifootball.com/?action=get_leagues&APIkey=9bb66184e0c8145384fd2cc0f7b914ada57b4e8fd2e4d6d586adcc27c257a978",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "apiv2.apifootball.com/?action=get_leagues&APIkey=9bb66184e0c8145384fd2cc0f7b914ada57b4e8fd2e4d6d586adcc27c257a978",
+					"host": [
+						"apiv2",
+						"apifootball",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "get_leagues"
+						},
+						{
+							"key": "APIkey",
+							"value": "9bb66184e0c8145384fd2cc0f7b914ada57b4e8fd2e4d6d586adcc27c257a978"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/football/standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/football/standings?countryName=England",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"football",
+						"standings"
+					],
+					"query": [
+						{
+							"key": "countryName",
+							"value": "England"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/api/football/standings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/api/football/standings?countryName=England",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"football",
+						"standings"
+					],
+					"query": [
+						{
+							"key": "countryName",
+							"value": "England"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
